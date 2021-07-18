@@ -1,0 +1,9 @@
+{
+    "name": "Nepal Postal Code",
+    "description": "Get your Postal Code",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "postalCode.html"
+    }
+}

@@ -1,0 +1,12 @@
+body{
+    min-height: 400px;
+    min-width: 400px;
+    background-color: #525354 !important;
+}
+h3{
+    text-align: center;
+    margin-top: 10px;
+}
+.copy:hover{
+    cursor: pointer;
+}
