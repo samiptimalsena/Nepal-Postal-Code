@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 body{
-    min-height: 400px;
-    min-width: 400px;
-    background-color: #525354 !important;
+    min-height: 350px;
+    min-width: 300px;
+    background-color: #fcf0cf !important;
 }
 h3{
     text-align: center;
@@ -9,4 +10,13 @@ h3{
 }
 .copy:hover{
     cursor: pointer;
+}
+
+.head-title{
+    font-family: 'Chelsea Market', cursive;
+}
+
+.codeHolder{
+    margin-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }

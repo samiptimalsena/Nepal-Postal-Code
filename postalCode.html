@@ -7,16 +7,90 @@
 </head>
 
 <body>
-    <h3 class="mt-3">Choose Your Place</h3>
+    <h3 class="mt-4 head-title">Choose Your Place</h3>
         <div class="mt-5">
       <div class="input-group mb-3 pl-3 pr-3">
         <div class="input-group-prepend">
           <label class="input-group-text" for="district">District</label>
         </div>
         <select class="custom-select"  id='district'>
-            <option selected>Kathmandu</option>
-            <option>Lalitpur</option>
-            <option>Bhaktapur</option>
+          <option>Achham</option>
+          <option>Arghakhanchi</option>
+          <option>Baglung</option>
+          <option>Baitadi</option>
+          <option>Bajhang</option>
+          <option>Bajura</option>
+          <option>Banke</option>
+          <option>Bara</option>
+          <option>Bardiya</option>
+          <option>Bhaktapur</option>
+          <option>Bhojpur</option>
+          <option>Chitwan</option>
+          <option>Dadeldhura</option>
+          <option>Dailekh</option>
+          <option>Dang</option>
+          <option>Darchula</option>
+          <option>Dhading</option>
+          <option>Dhankuta</option>
+          <option>Dhanusha</option>
+          <option>Dhanusa</option>
+          <option>Dolkha</option>
+          <option>Dolpa</option>
+          <option>Doti</option>
+          <option>Gorkha</option>
+          <option>Gulmi</option>
+          <option>Humla</option>
+          <option>Ilam</option>
+          <option>Jajarkot</option>
+          <option>Jhapa</option>
+          <option>Jumla</option>
+          <option>Kailali</option>
+          <option>Kalikot</option>
+          <option>Kanchanpur</option>
+          <option>Kapilvastu</option>
+          <option>Kaski</option>
+          <option selected>Kathmandu</option>
+          <option>Kavrepalanchok</option>
+          <option>Khotang</option>
+          <option>Lalitpur</option>
+          <option>Lamjung</option>
+          <option>Mahottari</option>
+          <option>Makwanpur</option>
+          <option>Makawanpur</option>
+          <option>Manang</option>
+          <option>Morang</option>
+          <option>Mugu</option>
+          <option>Mustang</option>
+          <option>Myagdi</option>
+          <option>Nawalparasi</option>
+          <option>Nuwakot</option>
+          <option>Okhaldhunga</option>
+          <option>Palpa</option>
+          <option>Panchthar</option>
+          <option>Parbat</option>
+          <option>Parsa</option>
+          <option>Pyuthan</option>
+          <option>Ramechhap</option>
+          <option>Rasuwa</option>
+          <option>Rautahat</option>
+          <option>Rolpa</option>
+          <option>Rukum</option>
+          <option>Rupandehi</option>
+          <option>Salyan</option>
+          <option>Sankhuwasabha</option>
+          <option>Saptari</option>
+          <option>Sarlahi</option>
+          <option>Sindhuli</option>
+          <option>Sindhupalchok</option>
+          <option>Siraha</option>
+          <option>Solukhumbu</option>
+          <option>Sunsari</option>
+          <option>Surkhet</option>
+          <option>Syangja</option>
+          <option>Tanahu</option>
+          <option>Taplejung</option>
+          <option>Terhathum</option>
+          <option>Udayapur</option>
         </select>
       </div>
       <div class="input-group mb-3 pl-3 pr-3">
@@ -24,17 +98,36 @@
           <label class="input-group-text" for="postOffice">Post Office</label>
         </div>
         <select class="custom-select" id="postOffice">
-            <option value="sitapaila">sitapaila</option>
-            <option value='kotipur'>kotipur</option>
+          <option value='Kathmandu'>Kathmandu</option>
+          <option value='Sankhu'>Sankhu</option>
+          <option value='Chabahil'>Chabahil</option>
+          <option value='Sundarijal'>Sundarijal</option>
+          <option value='Gauchar'>Gauchar</option>
+          <option value='Dillibazar'>Dillibazar</option>
+          <option value='Bansbari'>Bansbari</option>
+          <option value='Tokha Saraswati'>Tokha Saraswati</option>
+          <option value='Sachibalaya'>Sachibalaya</option>
+          <option value='Manmaiju'>Manmaiju</option>
+          <option value='Balaju'>Balaju</option>
+          <option value='Tribhuvan University'>Tribhuvan University</option>
+          <option value='Kalimati'>Kalimati</option>
+          <option value='Pharping'>Pharping</option>
+          <option value='Baluwatar'>Baluwatar</option>
+          <option value='Sarbochcha Adalat'>Sarbochcha Adalat</option>
+          <option value='Kirtipur'>Kirtipur</option>
+          <option value='Thankot'>Thankot</option>
+          <option value='Swayambhu'>Swayambhu</option>
+          <option value='Pashupati'>Pashupati</option>
+          <option value='Budhanilkantha'>Budhanilkantha</option>
         </select>
       </div>
     </div>
     <div class="text-center">
-    <button type="button" class="btn btn-info mx-auto" id='getCode'>Get Postal Code</button>
+    <button type="button" class="btn btn-info mx-auto mt-3" id='getCode'>Get Postal Code</button>
 </div>
-    <div class="mt-3" style="display: flex; text-align: center;">
-        <h3 class="text-success">Postal Code: <b id='code'>14</b></h3> 
-        <div class="text-dark ml-3"><i class="far fa-copy copy" id='copyIcon'></i></div>
+    <div class="codeHolder" style="display: flex; justify-content: center;">
+        <h3 class="text-dark">Postal Code: <b id='code' class="text-success">44600</b></h3> 
+        <div class="text-dark ml-3"><i class="far fa-copy copy mt-2 ml-3" id='copyIcon'></i></div>
     </div>
     <script src="./scripts/postalCode.js"></script>
 
